@@ -1,8 +1,8 @@
-# seleniumTest
-Below is an example of a test plan strategy document for your test cases, including objectives, test plan, and strategy:
+#  Web Automation Testing using selenium 
+
 
 ---
-#### Project Name: Web Application Testing using selenium 
+#### Project Name: Web Automation Testing using selenium 
 
 #### Objective:
 The objective of this test plan is to ensure the functionality and reliability of the VWO web application by testing key features such as login, logout, redirection, and password recovery.
