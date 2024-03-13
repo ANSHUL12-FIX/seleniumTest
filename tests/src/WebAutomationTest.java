@@ -78,17 +78,15 @@ public class WebAutomationTest {
     @Test
     public void testForgotPassword() {
         // Test the "forgot password" functionality
-//        driver.get("https://app.vwo.com/#/login");
-//        driver.findElement(By.linkText("Forgot password?")).click(); // Assuming there's a link with text "Forgot password?"
         driver.get("https://app.vwo.com/#/login");
-        WebElement forgotPasswordButton = driver.findElement(By.xpath("//*[@id='js-login-form']/ul/li[3]/button"));
+        WebElement forgotPasswordButton = driver.findElement(By.xpath("//*[@id='js-login-form']/ul/li[3]/button")); //By using xpath
         forgotPasswordButton.click();
     }
-//    @After
-//    public void tearDown() {
-//        // Close the browser
-//        if (driver != null) {
-//            driver.quit();
-//        }
-//    }
+   @After
+   public void tearDown() {
+       // Close the browser
+       if (driver != null) {
+           driver.quit();
+       }
+   }
 }
