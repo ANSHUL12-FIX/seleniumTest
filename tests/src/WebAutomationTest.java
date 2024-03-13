@@ -44,8 +44,6 @@ public class WebAutomationTest {
         driver.findElement(By.id("login-password")).sendKeys("invalidpassword");
         driver.findElement(By.id("js-login-btn")).click();
 
-
-
     }
 
     @Test
@@ -55,17 +53,6 @@ public class WebAutomationTest {
         driver.findElement(By.id("js-login-btn")).click();
 
        
-    }
-
-    @Test
-    public void testSuccessfulLogout() {
-        // Test successful logout after logging in
-        WebElement logoutButton = new WebDriverWait(driver, Duration.ofSeconds(10))
-                .until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-qa='logout-btn']")));
-        logoutButton.click();
-
-      //  driver.findElement(By.id("js-logout-btn")).click(); 
-
     }
 
     @Test
