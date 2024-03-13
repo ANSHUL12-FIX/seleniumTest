@@ -44,7 +44,7 @@ public class WebAutomationTest {
         driver.findElement(By.id("login-password")).sendKeys("invalidpassword");
         driver.findElement(By.id("js-login-btn")).click();
 
-        // Add assertions to validate the test
+
 
     }
 
@@ -54,8 +54,7 @@ public class WebAutomationTest {
         driver.get("https://app.vwo.com/#/login");
         driver.findElement(By.id("js-login-btn")).click();
 
-        // Add assertions to validate the test
-
+       
     }
 
     @Test
@@ -65,7 +64,7 @@ public class WebAutomationTest {
                 .until(ExpectedConditions.elementToBeClickable(By.cssSelector("[data-qa='logout-btn']")));
         logoutButton.click();
 
-      //  driver.findElement(By.id("js-logout-btn")).click(); // Assuming there's a logout button with id "logout-btn"
+      //  driver.findElement(By.id("js-logout-btn")).click(); 
 
     }
 
