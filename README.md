@@ -58,7 +58,7 @@ The objective of this test plan is to ensure the functionality and reliability o
 - **Manual Testing:** Perform manual testing for exploratory testing, edge cases, and user experience validation.
 - **Test Environment:** Utilize multiple browsers (Chrome, Firefox) to ensure cross-browser compatibility.
 - **Test Data:** Prepare test data for various scenarios, including valid and invalid credentials.
-- **Test Reporting:** Generate detailed test reports including test results, screenshots, and any encountered issues.
+- **Test Reporting:** Generate detailed test reports including test results..
 - **Test Coverage:** Ensure test coverage for all functional requirements and user stories related to authentication and session management.
 
 ---
