@@ -32,20 +32,13 @@ The objective of this test plan is to ensure the functionality and reliability o
      - Click on the login button without entering any credentials.
    - **Expected Result:** Error message should be displayed indicating required fields.
 
-4. **Logout Functionality**
-   - **Objective:** Verify that users can log out successfully.
-   - **Test Plan:**
-     - Log in with valid credentials.
-     - Click on the logout button.
-   - **Expected Result:** User should be redirected to the login page after successful logout.
-
-5. **Redirection to Login Page**
+4. **Redirection to Login Page**
    - **Objective:** Verify that users are redirected to the login page when accessing the dashboard without logging in.
    - **Test Plan:**
      - Attempt to access the dashboard page without logging in.
    - **Expected Result:** User should be redirected to the login page.
 
-6. **Forgot Password Functionality**
+5. **Forgot Password Functionality**
    - **Objective:** Verify that users can access the "Forgot password" functionality.
    - **Test Plan:**
      - Navigate to the login page.
